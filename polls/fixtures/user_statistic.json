@@ -1,0 +1,47 @@
+[
+  {
+    "model": "polls.UserStatistic",
+    "pk": 1,
+    "fields": {
+      "user_id": 1,
+      "question": 1,
+      "answer": "тест"
+    }
+  },
+  {
+    "model": "polls.UserStatistic",
+    "pk": 1,
+    "fields": {
+      "user_id": 1,
+      "question": 2,
+      "answer": "ответ 1"
+    }
+  },
+  {
+    "model": "polls.UserStatistic",
+    "pk": 1,
+    "fields": {
+      "user_id": 2,
+      "question": 2,
+      "answer": "ответ 1"
+    }
+  },
+  {
+    "model": "polls.UserStatistic",
+    "pk": 1,
+    "fields": {
+      "user_id": 2,
+      "question": 3,
+      "answer": "ответ 2"
+    }
+  },
+  {
+    "model": "polls.UserStatistic",
+    "pk": 1,
+    "fields": {
+      "user_id": 1,
+      "question": 4,
+      "answer": "произвольный ответ"
+    }
+  }
+]

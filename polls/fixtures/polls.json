@@ -1,0 +1,32 @@
+[
+  {
+    "model": "polls.Polls",
+    "pk": "1",
+    "fields": {
+      "name": "Тестовый опрос",
+      "from_date": "2021-05-04",
+      "to_date": "2021-05-09",
+      "description": "Тестовый опрос"
+    }
+  },
+  {
+    "model": "polls.Polls",
+    "pk": "2",
+    "fields": {
+      "name": "Истекший опрос",
+      "from_date": "2021-04-05",
+      "to_date": "2021-04-10",
+      "description": "Истекший опрос"
+    }
+  },
+  {
+    "model": "polls.Polls",
+    "pk": "3",
+    "fields": {
+      "name": "Тестовый опрос 2",
+      "from_date": "2021-05-05",
+      "to_date": "2021-05-09",
+      "description": "Тестовый опрос 2"
+    }
+  }
+]

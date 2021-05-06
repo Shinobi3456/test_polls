@@ -1,0 +1,92 @@
+[
+  {
+    "model": "polls.question",
+    "pk": 1,
+    "fields": {
+      "polls": 1,
+      "name": "Тестовый вопрос",
+      "type": "0",
+      "draft": false
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 2,
+    "fields": {
+      "polls": 1,
+      "name": "Тестовый вопрос 1",
+      "type": "1",
+      "draft": false
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 3,
+    "fields": {
+      "polls": 1,
+      "name": "Тестовый вопрос 2",
+      "type": "2",
+      "draft": false
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 4,
+    "fields": {
+      "polls": 3,
+      "name": "Тестовый вопрос 3",
+      "type": "0",
+      "draft": false
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 5,
+    "fields": {
+      "polls": 3,
+      "name": "Тестовый вопрос 4",
+      "type": "1",
+      "draft": false
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 6,
+    "fields": {
+      "polls": 3,
+      "name": "Тестовый вопрос 5",
+      "type": "2",
+      "draft": false
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 7,
+    "fields": {
+      "polls": 2,
+      "name": "Тестовый вопрос 6",
+      "type": "0",
+      "draft": false
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 8,
+    "fields": {
+      "polls": 2,
+      "name": "Тестовый вопрос 7",
+      "type": "1",
+      "draft": false
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 9,
+    "fields": {
+      "polls": 2,
+      "name": "Тестовый вопрос 8",
+      "type": "2",
+      "draft": false
+    }
+  }
+]

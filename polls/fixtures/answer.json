@@ -1,0 +1,74 @@
+[
+  {
+    "model": "polls.Answer",
+    "pk": 1,
+    "fields": {
+      "question": 2,
+      "text": "ответ 1"
+    }
+  },
+  {
+    "model": "polls.Answer",
+    "pk": 2,
+    "fields": {
+      "question": 3,
+      "text": "ответ 2"
+    }
+  },
+  {
+    "model": "polls.Answer",
+    "pk": 3,
+    "fields": {
+      "question": 3,
+      "text": "ответ 3"
+    }
+  },
+  {
+    "model": "polls.Answer",
+    "pk": 4,
+    "fields": {
+      "question": 5,
+      "text": "ответ 1"
+    }
+  },
+  {
+    "model": "polls.Answer",
+    "pk": 5,
+    "fields": {
+      "question": 6,
+      "text": "ответ 2"
+    }
+  },
+  {
+    "model": "polls.Answer",
+    "pk": 6,
+    "fields": {
+      "question": 6,
+      "text": "ответ 3"
+    }
+  },
+  {
+    "model": "polls.Answer",
+    "pk": 7,
+    "fields": {
+      "question": 8,
+      "text": "ответ 1"
+    }
+  },
+  {
+    "model": "polls.Answer",
+    "pk": 8,
+    "fields": {
+      "question": 9,
+      "text": "ответ 2"
+    }
+  },
+  {
+    "model": "polls.Answer",
+    "pk": 9,
+    "fields": {
+      "question": 9,
+      "text": "ответ 3"
+    }
+  }
+]
