@@ -24,7 +24,7 @@ $ git clone https://github.com/Shinobi3456/test_polls.git
 
 2. Check into the cloned repository
 ```
-$ cd testFunBox
+$ cd test_polls
 ```
 
 3. If you are using Pipenv, setup the virtual environment and start it as follows:
