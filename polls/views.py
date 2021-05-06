@@ -3,6 +3,8 @@ import datetime
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from drf_yasg import openapi
+from drf_yasg.utils import swagger_auto_schema
 
 from polls.models import Polls, Question
 from polls.serializers import PollsListSerializers, QuestionSerializers, AnswerSaveSerializers, PollsSerializers
@@ -30,6 +32,13 @@ class PollsDetail(APIView):
 class AnswerSaveView(APIView):
     """Сохраение ответа пользователя"""
 
+    @swagger_auto_schema(request_body=openapi.Schema(
+        type=openapi.TYPE_OBJECT,
+        properties={
+            'user_id': openapi.Schema(type=openapi.TYPE_INTEGER, description='User Identification'),
+            'question': openapi.Schema(type=openapi.TYPE_INTEGER, description='Question id'),
+            'answer': openapi.Schema(type=openapi.TYPE_STRING, description='Response text from user'),
+        }))
     def post(self, request):
         serializer = AnswerSaveSerializers(data=request.data)
         if serializer.is_valid():
